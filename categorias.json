@@ -1,0 +1,37 @@
+{
+  "language": "pt-MZ",
+  "categories": [
+    {
+      "id": "codigo-da-estrada",
+      "label": "Código da Estrada",
+      "sourceCodes": ["cde"],
+      "freeQuestionFiles": "free/codigo-da-estrada/{bundle}/questions/*.json",
+      "premiumQuestionFiles": "premium/codigo-da-estrada/{bundle}/questions/*.json",
+      "imageDirectory": "{tier}/codigo-da-estrada/{bundle}/images/{unit}/"
+    },
+    {
+      "id": "sinais-de-transito",
+      "label": "Sinais de Trânsito",
+      "sourceCodes": ["sdt"],
+      "freeQuestionFiles": "free/sinais-de-transito/{bundle}/questions/*.json",
+      "premiumQuestionFiles": "premium/sinais-de-transito/{bundle}/questions/*.json",
+      "imageDirectory": "{tier}/sinais-de-transito/{bundle}/images/{unit}/"
+    },
+    {
+      "id": "exames-predefinidos",
+      "label": "Exames Predefinidos",
+      "sourceCodes": ["exame"],
+      "freeQuestionFiles": "free/exames-predefinidos/{bundle}/questions/*.json",
+      "premiumQuestionFiles": "premium/exames-predefinidos/{bundle}/questions/*.json",
+      "imageDirectory": "{tier}/exames-predefinidos/{bundle}/images/{unit}/"
+    },
+    {
+      "id": "revisao-geral",
+      "label": "Revisão Geral",
+      "sourceCodes": ["revisao", "cg", "mec"],
+      "freeQuestionFiles": "free/revisao-geral/{bundle}/questions/*.json",
+      "premiumQuestionFiles": "premium/revisao-geral/{bundle}/questions/*.json",
+      "imageDirectory": "{tier}/revisao-geral/{bundle}/images/{unit}/"
+    }
+  ]
+}

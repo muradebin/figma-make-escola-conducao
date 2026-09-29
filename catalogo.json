@@ -1,0 +1,26 @@
+{
+  "name": "Exame de Condução MZ",
+  "description": "Acervo de preparação para o exame teórico de condução em Moçambique.",
+  "language": "pt-MZ",
+  "sourceOfTruth": "Os ficheiros JSON dentro deste diretório.",
+  "packageCount": 91,
+  "access": {
+    "freePackageCount": 7,
+    "premiumPackageCount": 84,
+    "freeDirectory": "free/",
+    "premiumDirectory": "premium/"
+  },
+  "categoriesFile": "categorias.json",
+  "questionFormat": {
+    "question": "Texto da pergunta",
+    "options": "Lista de opções; cada opção possui text e correct",
+    "imageRelativePath": "Caminho relativo da imagem original, quando existir",
+    "type": "Tipo da pergunta, normalmente MultipleChoice"
+  },
+  "rules": [
+    "Não inventar perguntas, respostas ou leis.",
+    "Não mostrar a resposta correcta antes da submissão.",
+    "Usar categorias.json para agrupar os ficheiros.",
+    "Usar a pasta {tier}/{categoria}/{bundle}/images/{unit} correspondente ao ficheiro de perguntas."
+  ]
+}
